@@ -1,0 +1,1262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+
+}
+
+.bg-image{
+    background-image: url(image.png);
+    filter: contrast(100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* position: absolute; */
+    height: 48.9vw;
+    width: 100%;
+}
+
+.trans-bg{
+    /* z-index: 1; */
+    /* position: relative; */
+    height: 15vw;
+    width: 100%;
+    /* background-color: rgba(65, 59, 59, 0.351); */
+    background-color: rgba(0, 0, 0, 0.179);
+}
+.blue-line{
+
+    background-color: #2db8d9;
+    height: 0.8vw;
+    width: 3vw;
+    margin-left: 2.2vw;
+    margin-top: 1.9vw;
+
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+.u{
+    color: white;
+    font-size: 2.2vw;
+    margin-left: 2vw;
+    line-height: 4.5vw;
+    /* margin-top: 1.9vw; */
+
+}
+.trend{
+    line-height: 1vw;
+    color: white;
+    font-size: 1.1vw;
+    margin-left: 2.4vw;
+}
+.soft h3{margin-top: 0.3vw;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 2.4vw;
+    font-weight: 500;
+}
+
+.trans-bg{
+    position: absolute;
+}
+.grey-div{
+    background-color: rgba(149, 149, 149, 0.329);
+    height: 32vw;
+    width: 21vw;
+    position: relative;
+    z-index: 1;
+    margin-left: 77.9vw;
+   
+}
+
+/* side header text */
+.text-one{
+    line-height: 0.5vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text h2{
+
+    margin-top: 4vw;
+    color: white;
+    font-size: 1.9vw;
+}
+.box-1{
+
+    margin-right: 2vw;
+    margin-top: 3.8vw;
+    margin-left: 0.8vw;
+    background-color: white;
+    height: 0.9vw;
+    width: 0.9vw;
+
+}
+.header-last-divs{
+    display: flex;
+}
+.yellow-div{
+    /* background-color: rgb(255, 213, 0); */
+    background-color: rgba(255, 213, 0, 0.759);
+    height: 16.8vw;
+    width: 77.9vw;
+    /* width: 75.9vw; */
+    position: relative;
+    z-index: -1;
+}
+.learn h1{
+    color: white;
+    font-size: 5.9vw;
+    margin-top: 2.5vw;
+    margin-left: 3vw;
+
+
+}
+.programming h1{
+    color: white;
+    font-size: 5vw;
+    margin-left: 3vw;
+    font-weight: 500;
+    line-height: 2vw;
+
+}
+.dark-grey{
+
+    background-color: rgba(49, 49, 49, 0.753);
+    height: 16.8vw;
+    width: 21vw;
+    /* filter: blur(20px); */
+
+}
+.address{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.add h2{
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 11.5vw;
+    margin-top: 5vw;
+}
+.add-content h3{
+    color: white;
+    font-size: 1vw;
+    margin-left: 3.2vw;
+    font-weight: 300;
+   
+}
+.phone h3{
+    color: white;
+    font-size: 1vw;
+    margin-left: 6vw;
+    font-weight: 300;
+   
+}
+.phone h3 b{
+    font-size: 1.2vw;
+    margin-left: 0.5vw;
+
+    
+}
+
+.mail h3{
+    color: white;
+    font-size: 1vw;
+    margin-left: 3.3vw;
+    font-weight: 300;
+   
+}
+.mail h3 b{
+    font-size: 1.2vw;
+    margin-left: 0.5vw;
+}
+
+.web h3{
+    color: white;
+    font-size: 1vw;
+    margin-left: 4.9vw;
+    font-weight: 300;
+   
+}
+.web h3 b{
+    font-size: 1.2vw;
+    margin-left: 0.5vw;
+}
+
+
+
+
+/* Middle part */
+
+.middle-part{
+    display: flex;
+}
+.mid-texts{
+    display: flex;
+    flex-direction: column;
+}
+.mid-first-part{
+    background-color: rgb(255, 255, 255);
+    height: 14.8vw;
+    width: 77.9vw;
+}
+.first h1{
+    margin-top: 1vw;
+    margin-left: 2.9vw;
+    color: #e74550;
+    font-size: 5.1vw;
+}
+.start h1{
+    color: #5e5e5e;
+    line-height: 3vw;
+    font-size: 2.8vw;
+    font-weight: 800;
+    margin-left: 2.9vw;
+
+}
+.month h1{
+    color: #5e5e5e;
+
+    font-size: 2.1vw;
+    font-weight: 800;
+    margin-left: 2.9vw;
+
+}
+.mid-second-part{
+
+    background-color: #2db8d9;
+    height: 14.8vw;
+    width: 21vw;
+    display: flex;
+    /* filter: blur(20px); */
+
+}
+
+.c-img img{
+    margin-top: 3.8vw;
+    margin-left: 2.5vw;
+    height: 5.5vw;
+    width: 5.5vw;
+}
+.coded img{
+    margin-left: 0.5vw;
+    margin-top: 6.4vw;
+    height: 1.5vw;
+    width: 6.9vw;
+}
+.co h3{
+    font-size: 1vw;
+
+}
+.logo-of-company h1{
+    font-size: 0.9vw;
+    font-weight: 500;
+    margin-top: 0.1vw;
+    margin-left: 0.5vw;
+    color: white;
+
+  
+}
+
+
+
+
+
+/* Footer part */
+.footer-part{
+    display: flex;
+}
+
+.footer-part-one{
+    background-color: rgb(239, 239, 239);
+    height: 43vw;
+    width: 77.9vw;
+}
+.our h1{
+    color: #e74550;
+    font-size: 2.3vw;
+    font-weight: 800;
+    margin-top: 1.7vw;
+    margin-left: 2.9vw;
+}
+.code h1{
+    line-height: 4.3vw;
+    color: #5e5e5e;
+    font-size: 4vw;
+    font-weight: 800;
+    margin-left: 2.9vw;
+
+}
+
+.coded-logo-text{
+    display: flex;
+
+}
+.co h3{
+    font-size: 1.1vw;
+    color:#5e5e5e;
+    margin-top: 0.5vw;
+}
+.lorem h1{
+    text-transform: uppercase;
+    color: #5e5e5e;
+    font-weight: 600;
+    font-size: 1.4vw;
+    margin-left: 2.9vw;
+
+}
+.paragraph{
+    text-transform: uppercase;
+    text-align: justify;
+    margin-top: 4vw;
+    margin-left: 2.9vw;
+    color: #7a7a7a;
+    font-size: 1.1vw;
+    font-weight: 500;
+    height: 10vw;
+    width: 59vw;
+    line-height: 1.4vw;
+}
+.paragraph-2{
+    text-transform: uppercase;
+    text-align: justify;
+    margin-top: 2vw;
+    margin-left: 2.9vw;
+    color: #7a7a7a;
+    font-size: 1.1vw;
+    font-weight: 500;
+    height: 15vw;
+    width: 59vw;
+    line-height: 1.4vw;
+}
+.red-footer{
+    background-color: #e74550;
+    height: 1.7vw;
+    width: 77.9vw;
+
+}
+
+.footer-part-two{
+    background-color: rgb(255, 255, 255);
+    height: 36vw;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+}
+.second img{
+    margin-top: 6.2vw;
+    margin-left: 2vw;
+    height: 2.5vw;
+    width: 17vw;
+}
+.end-it img{
+    margin-top: 1.3vw;
+    margin-left: 2.6vw;
+    height: 1.5vw;
+    width: 16vw;
+}
+.trophy img{
+    margin-top: 3vw;
+    margin-left: 15vw;
+    height: 5vw;
+    width: 4.5vw;
+}
+.earn img{
+    margin-top: 1.3vw;
+    margin-left: 6vw;
+    height: 3.2vw;
+    width: 13vw;
+}
+.lorem-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.lorem-content h4{
+    line-height: 1.5vw;
+    font-weight: 600;
+    margin-top: 3.3vw;
+    color:#7a7a7a;
+    text-align: right;
+    font-size: 1.1vw;
+    height: 10vw;
+    width: 19vw;
+}
+
+
+
+
+
+
+@media (max-width:1235px){
+    .grey-div{
+        background-color: rgba(149, 149, 149, 0.329);
+        height: 32vw;
+        width: 22.1vw;
+        /* position: relative; */
+        /* z-index: 1; */
+        margin-left: 77.9vw;
+       
+    }
+
+    .dark-grey{
+
+        background-color: rgba(49, 49, 49, 0.753);
+        height: 16.8vw;
+        width: 22.1vw;
+        /* filter: blur(20px); */
+    
+    }
+    .mid-second-part{
+
+        background-color: #2db8d9;
+        height: 14.8vw;
+
+        width: 22.1vw;
+        display: flex;
+        /* filter: blur(20px); */
+    
+    }
+    .footer-part-two{
+        background-color: rgb(255, 255, 255);
+        height: 36vw;
+        width: 22.1vw;
+    }
+} 
+
+
+@media (max-width:600px){
+  
+    
+    .bg-image{
+        background-image: url(image.png);
+        filter: contrast(100%);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* position: absolute; */
+        height: 77.8vw;
+        width: 100%;
+    }
+    
+    .trans-bg{
+        /* z-index: 1; */
+        /* position: relative; */
+        height: 26vw;
+        width: 100%;
+        /* background-color: rgba(65, 59, 59, 0.351); */
+        background-color: rgba(0, 0, 0, 0.179);
+    }
+    .blue-line{
+    
+        background-color: #2db8d9;
+        height: 1.6vw;
+        width: 5vw;
+        margin-left: 4vw;
+        margin-top: 3.9vw;
+    
+    
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+    }
+    .u{
+        color: white;
+        margin-top: 2.7vw;
+        font-size: 3.9vw;
+        margin-left: 3.4vw;
+        line-height: 4.5vw;
+        /* margin-top: 1.9vw; */
+    
+    }
+    .trend{
+        margin-top: 2.4vw;
+        line-height: 1vw;
+        color: white;
+        font-size: 1.7vw;
+        margin-left: 3.9vw;
+    }
+    .soft h3{
+        margin-top: 0.6vw;
+        color: white;
+        font-size: 2.2vw;
+        margin-left: 3.9vw;
+
+        font-weight: 500;
+    }
+    
+    .trans-bg{
+        position: absolute;
+    }
+    .grey-div{
+        background-color: rgba(149, 149, 149, 0.329);
+        height: 52vw;
+        width: 32vw;
+        position: relative;
+        z-index: 1;
+        margin-left: 67.8vw;
+       
+    }
+    
+    /* side header text */
+    .text-one{
+        line-height: 1.5vw;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .text h2{
+    
+        margin-top: 6.3vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+    .box-1{
+    
+        margin-right: 5vw;
+        margin-top: 6.5vw;
+        margin-left: 0.8vw;
+        background-color: white;
+        height: 1.2vw;
+        width: 1.2vw;
+    
+    }
+    .header-last-divs{
+        display: flex;
+    }
+    .yellow-div{
+        /* background-color: rgb(255, 213, 0); */
+        background-color: rgba(255, 213, 0, 0.759);
+        height: 25.8vw;
+        width: 67.8vw;
+        /* width: 75.9vw; */
+        position: relative;
+        z-index: -1;
+    }
+    .learn h1{
+        color: white;
+        font-size: 7.2vw;
+        margin-top: 4.9vw;
+        margin-left: 5vw;
+    
+    
+    }
+    .programming h1{
+        margin-top: 1.5vw;
+        color: white;
+        font-size: 7vw;
+        margin-left: 5vw;
+        font-weight: 500;
+        line-height: 2vw;
+    
+    }
+    .dark-grey{
+    
+        background-color: rgba(49, 49, 49, 0.753);
+        height: 25.8vw;
+        width: 32vw;
+        /* filter: blur(20px); */
+    
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .add h2{
+        line-height: 3vw;
+        color: white;
+        font-size: 1.9vw;
+        margin-left: 17vw;
+        margin-top: 6vw;
+    }
+    .add-content h3{
+        color: white;
+        font-size: 1.6vw;
+        margin-left: 3.6vw;
+        font-weight: 300;
+       
+    }
+    .phone h3{
+        line-height: 3vw;
+        color: white;
+        font-size: 1.6vw;
+        margin-left: 8.5vw;
+        font-weight: 300;
+       
+    }
+    .phone h3 b{
+        font-size: 1.9vw;
+        margin-left: 0.5vw;
+    
+        
+    }
+    
+    .mail h3{
+        line-height: 1.5vw;
+        color: white;
+        font-size: 1.6vw;
+        margin-left: 3.9vw;
+        font-weight: 300;
+       
+    }
+    .mail h3 b{
+        font-size: 1.9vw;
+        margin-left: 0.5vw;
+    }
+    
+    .web h3{
+        margin-top: 0.5vw;
+        color: white;
+        font-size: 1.6vw;
+        margin-left: 6.7vw;
+        font-weight: 300;
+       
+    }
+    .web h3 b{
+        font-size: 1.9vw;
+        margin-left: 0.5vw;
+    }
+    
+    
+    
+    
+    /* Middle part */
+    
+    .middle-part{
+        display: flex;
+    }
+    .mid-texts{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-first-part{
+        background-color: rgb(255, 255, 255);
+        height: 20.8vw;
+        width: 67.9vw;
+
+
+    }
+    .first h1{
+        margin-top: 2.2vw;
+        margin-left: 5vw;
+        color: #e74550;
+        font-size: 6.1vw;
+        font-weight: 800;
+    }
+    .start h1{
+        color: #5e5e5e;
+        line-height: 4vw;
+        font-size: 3.8vw;
+        font-weight: 700;
+        margin-left: 5vw;
+    
+    }
+    .month h1{
+        color: #5e5e5e;
+        margin-top: 0.5vw;
+        font-size: 2.6vw;
+        font-weight: 600;
+        margin-left: 5vw;
+    
+    }
+    .mid-second-part{
+    
+        background-color: #2db8d9;
+        height: 20.7vw;
+        width: 32.3vw;
+        display: flex;
+        /* filter: blur(20px); */
+    
+    }
+    
+    .c-img img{
+        margin-top: 5.8vw;
+        margin-left: 4vw;
+        height: 8vw;
+        width: 8vw;
+    }
+    .coded img{
+        margin-left: 0.5vw;
+        margin-top: 9.8vw;
+        height: 2.5vw;
+        width: 11.9vw;
+    }
+    .co h3{
+        font-size: 1vw;
+    
+    }
+    .logo-of-company h1{
+        font-size: 1.3vw;
+        font-weight: 600;
+        line-height: 0.5vw;
+        margin-left: 0.5vw;
+        color: white;
+    
+      
+    }
+    
+    
+    
+    
+    
+    /* Footer part */
+    .footer-part{
+        display: flex;
+    }
+    
+    .footer-part-one{
+        background-color: rgb(239, 239, 239);
+        height: 61vw;
+        width: 67.8vw;
+
+    }
+    .our h1{
+        color: #e74550;
+        font-size: 2.4vw;
+        font-weight: 800;
+        margin-top: 3vw;
+        margin-left: 5vw;
+    }
+    .code h1{
+        line-height: 6.3vw;
+        color: #5e5e5e;
+        font-size: 5.6vw;
+        font-weight: 900;
+        margin-left: 5vw;
+    
+    }
+    
+    .coded-logo-text{
+        display: flex;
+    
+    }
+    .co h3{
+        font-size: 1.9vw;
+        color:#5e5e5e;
+        margin-top: 0.7vw;
+    }
+    .lorem h1{
+        text-transform: uppercase;
+        color: #5e5e5e;
+        font-weight: 600;
+        font-size: 1.4vw;
+        margin-left: 5vw;
+    
+    }
+    .paragraph{
+        text-transform: uppercase;
+        text-align: justify;
+        margin-top: 6vw;
+        margin-left: 5vw;
+        color: #7a7a7a;
+        font-size: 1.3vw;
+        font-weight: 500;
+        height: 10vw;
+        width: 57vw;
+        line-height: 1.9vw;
+    }
+    .paragraph-2{
+        text-transform: uppercase;
+        text-align: justify;
+        margin-top: 9vw;
+        margin-left: 5vw;
+        color: #7a7a7a;
+        font-size: 1.3vw;
+        font-weight: 500;
+        height: 10vw;
+        width: 57vw;
+        line-height: 1.9vw;
+    }
+    .red-footer{
+        background-color: #e74550;
+        height: 1.2vw;
+        width: 67.8vw;
+        margin-top: 12vw;
+    
+    }
+    
+    .footer-part-two{
+        background-color: rgb(255, 255, 255);
+        height: 59vw;
+        width: 32vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .second img{
+        margin-top: 9.2vw;
+        margin-left: 4vw;
+        height: 3.5vw;
+        width: 24vw;
+    }
+    .end-it img{
+        margin-top: 1.3vw;
+        margin-left: 4vw;
+        height: 2vw;
+        width: 24vw;
+    }
+    .trophy img{
+        margin-top: 4vw;
+        margin-left: 21vw;
+        height: 8.3vw;
+        width: 7vw;
+    }
+    .earn img{
+        margin-top: 1.3vw;
+        margin-left: 9vw;
+        height: 4.4vw;
+        width: 18vw;
+    }
+    .lorem-text{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .lorem-content h4{
+        text-transform: uppercase;
+        line-height: 1.9vw;
+        font-weight: 600;
+        margin-top: 3.3vw;
+        color:#7a7a7a;
+        text-align: right;
+        font-size: 1.5vw;
+        height: 19vw;
+        width: 28vw;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:398px){
+  
+    
+    .bg-image{
+        background-image: url(image.png);
+        filter: contrast(100%);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* position: absolute; */
+        height: 90.8vw;
+        width: 100%;
+    }
+    
+    .trans-bg{
+        /* z-index: 1; */
+        /* position: relative; */
+        height: 32vw;
+        width: 100%;
+        /* background-color: rgba(65, 59, 59, 0.351); */
+        background-color: rgba(0, 0, 0, 0.179);
+    }
+    .blue-line{
+    
+        background-color: #2db8d9;
+        height: 1.8vw;
+        width: 5.5vw;
+        margin-left: 5vw;
+        margin-top: 5.9vw;
+    
+    
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+    }
+    .u{
+        color: white;
+        margin-top: 2.7vw;
+        font-size: 3.9vw;
+        margin-left: 4.8vw;
+        line-height: 4.5vw;
+        /* margin-top: 1.9vw; */
+    
+    }
+    .trend{
+        margin-top: 2.4vw;
+        line-height: 1vw;
+        color: white;
+        font-size: 1.8vw;
+        margin-left: 4.8vw;
+
+    }
+    .soft h3{
+        margin-top: 0.6vw;
+        color: white;
+        font-size: 2.6vw;
+        margin-left: 4.8vw;
+        font-weight: 500;
+    }
+    
+    .trans-bg{
+        position: absolute;
+    }
+    .grey-div{
+        background-color: rgba(149, 149, 149, 0.329);
+        height: 65vw;
+        width: 36vw;
+        position: relative;
+        z-index: 1;
+        margin-left: 63.8vw;
+       
+    }
+    
+    /* side header text */
+    .text-one{
+        line-height: 0vw;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .text h2{
+        
+        margin-top: 8.7vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+    .box-1{
+    
+        margin-right: 3vw;
+        margin-top: 8.1vw;
+        margin-left: 2vw;
+        background-color: white;
+        height: 1.5vw;
+        width: 1.5vw;
+    
+    }
+    .header-last-divs{
+        display: flex;
+    }
+    .yellow-div{
+        /* background-color: rgb(255, 213, 0); */
+        background-color: rgba(255, 213, 0, 0.759);
+        height: 25.8vw;
+        width: 63.8vw;
+        /* width: 75.9vw; */
+        position: relative;
+        z-index: -1;
+    }
+    .learn h1{
+        color: white;
+        font-size: 7vw;
+        margin-top: 6vw;
+        margin-left: 3vw;
+        font-weight: 800;
+        letter-spacing: 0.2vw;
+    
+    
+    }
+    .programming h1{
+        margin-top: 1vw;
+        color: white;
+        font-size: 6vw;
+        margin-left: 3vw;
+        font-weight: 500;
+        line-height: 2vw;
+    
+    }
+    .dark-grey{
+    
+        background-color: rgba(49, 49, 49, 0.753);
+        height: 25.8vw;
+        width: 36vw;
+        /* filter: blur(20px); */
+    
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0vw;
+    
+    }
+    
+    .add h2{
+        line-height: 3vw;
+        color: white;
+        font-size: 2.1vw;
+        margin-left: 19vw;
+        margin-top: 6vw;
+    }
+    .add-content h3{
+        color: white;
+        font-size: 1.8vw;
+        margin-left: 3.8vw;
+        font-weight: 300;
+       
+    }
+    .phone h3{
+        line-height: 3vw;
+        color: white;
+        font-size: 1.8vw;
+        margin-left: 9.5vw;
+        font-weight: 300;
+       
+    }
+    .phone h3 b{
+        font-size: 2.1vw;
+        margin-left: 0.5vw;
+    
+        
+    }
+    
+    .mail h3{
+        line-height: 1.5vw;
+        color: white;
+        font-size: 1.8vw;
+        margin-left: 4.5vw;
+        font-weight: 300;
+       
+    }
+    .mail h3 b{
+        font-size: 2.1vw;
+        margin-left: 0.5vw;
+    }
+    
+    .web h3{
+        margin-top: 0.5vw;
+        color: white;
+        font-size: 1.8vw;
+        margin-left: 7.4vw;
+        font-weight: 300;
+       
+    }
+    .web h3 b{
+        font-size: 2.1vw;
+
+        margin-left: 0.5vw;
+    }
+    
+    
+    
+    
+    /* Middle part */
+    
+    .middle-part{
+        display: flex;
+    }
+    .mid-texts{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-first-part{
+        background-color: rgb(255, 255, 255);
+        height: 20.8vw;
+        width: 63.8vw;
+
+    }
+    .first h1{
+        margin-top: 3.2vw;
+        margin-left: 3vw;
+        color: #e74550;
+        font-size: 6.6vw;
+    }
+    .start h1{
+        color: #5e5e5e;
+        line-height: 5vw;
+        font-size: 3.8vw;
+        font-weight: 700;
+        margin-left: 5vw;
+    
+    }
+    .month h1{
+        color: #5e5e5e;
+        margin-top: 0.5vw;
+        font-size: 2.6vw;
+        font-weight: 600;
+        margin-left: 5vw;
+    
+    }
+    .mid-second-part{
+    
+        background-color: #2db8d9;
+        height: 24.7vw;
+        width: 36.3vw;
+        display: flex;
+        /* filter: blur(20px); */
+    
+    }
+    
+    .c-img img{
+        margin-top: 7.8vw;
+        margin-left: 6vw;
+        height: 8vw;
+        width: 8vw;
+    }
+    .coded img{
+        margin-left: 0.5vw;
+        margin-top: 11.8vw;
+        height: 2.5vw;
+        width: 11.9vw;
+    }
+    .co h3{
+        font-size: 1vw;
+    
+    }
+    .logo-of-company h1{
+        font-size: 1.3vw;
+        font-weight: 600;
+        line-height: 0.5vw;
+        margin-left: 0.5vw;
+        color: white;
+    
+      
+    }
+    
+    
+    
+    
+    
+    /* Footer part */
+    .footer-part{
+        display: flex;
+    }
+    
+    .footer-part-one{
+        background-color: rgb(239, 239, 239);
+        height: 83vw;
+        width: 63.8vw;
+
+    }
+    .our h1{
+        color: #e74550;
+        font-size: 2.8vw;
+        font-weight: 800;
+        margin-top: 5vw;
+        margin-left: 5vw;
+    }
+    .code h1{
+        line-height: 8.3vw;
+        color: #5e5e5e;
+        font-size: 6.6vw;
+        font-weight: 900;
+        margin-left: 5vw;
+    
+    }
+    
+    .coded-logo-text{
+        display: flex;
+    
+    }
+    .co h3{
+        font-size: 2.2vw;
+        color:#5e5e5e;
+        margin-top: 1.3vw;
+    }
+    .lorem h1{
+        text-transform: uppercase;
+        color: #5e5e5e;
+        font-weight: 600;
+        font-size: 1.4vw;
+        margin-left: 5vw;
+    
+    }
+    .paragraph{
+        text-transform: uppercase;
+        text-align: justify;
+        margin-top: 6vw;
+        margin-left: 5vw;
+        color: #7a7a7a;
+        font-size: 1.6vw;
+        font-weight: 500;
+        height: 10vw;
+        width: 48vw;
+        line-height: 1.9vw;
+    }
+    .paragraph-2{
+        text-transform: uppercase;
+        text-align: justify;
+        margin-top: 16vw;
+        margin-left: 5vw;
+        color: #7a7a7a;
+        font-size: 1.6vw;
+        font-weight: 500;
+        height: 10vw;
+        width: 48vw;
+        line-height: 1.9vw;
+    }
+    .red-footer{
+        background-color: #e74550;
+        height: 1.2vw;
+        width: 63.8vw;
+        margin-top: 20vw;
+    
+    }
+    
+    .footer-part-two{
+        background-color: rgb(255, 255, 255);
+        height: 82vw;
+        width: 36vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .second img{
+        margin-top: 11.2vw;
+        margin-left: 3.7vw;
+        height: 4.1vw;
+        width: 28vw;
+    }
+    .end-it img{
+        margin-top: 1.3vw;
+        margin-left: 4vw;
+        height: 2.6vw;
+        width: 28vw;
+    }
+    .trophy img{
+        margin-top: 5vw;
+        margin-left: 24vw;
+        height: 9.2vw;
+        width: 8vw;
+    }
+    .earn img{
+        margin-top: 1.5vw;
+        margin-left: 9vw;
+        height: 5.2vw;
+        width: 22vw;
+    }
+    .lorem-text{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .lorem-content h4{
+        text-transform: uppercase;
+        line-height: 2.5vw;
+        text-align: justify;
+        font-weight: 600;
+        margin-top: 5.3vw;
+        color:#7a7a7a;
+        text-align: right;
+        font-size: 1.7vw;
+        height: 28vw;
+        width: 32vw;
+
+    }
+    
+
+}
